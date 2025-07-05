@@ -1,0 +1,42 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build / IDE artifacts
+/vendor/
+/bin/
+/build/
+/dist/
+/coverage/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+*.swp
+
+# Go stuff
+/go.sum
+/go.work
+/go.work.sum
+
+# Env/config
+.env
+.env.*
+
+# IDEs/editors
+.idea/
+.vscode/
+*.code-workspace
+
+# Dependency caches
+/pkg/mod/
+/.cache/
