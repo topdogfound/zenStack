@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 808,
-			"y": 193,
-			"lastActivityTimestamp": 1751706673825,
+			"x": 908,
+			"y": 195,
+			"lastActivityTimestamp": 1751706949214,
 			"meta": {}
 		},
 		{
@@ -405,19 +405,19 @@
 			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:u-p5wX7Yrt8tk0qwtO5UH"
+				"shape:GbWvaT-fihtGH2o4eW9dw"
 			],
-			"hoveredShapeId": null,
+			"hoveredShapeId": "shape:GbWvaT-fihtGH2o4eW9dw",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
-			"focusedGroupId": null,
+			"focusedGroupId": "shape:u-p5wX7Yrt8tk0qwtO5UH",
 			"meta": {},
 			"id": "instance_page_state:page:page",
 			"pageId": "page:page",
 			"typeName": "instance_page_state"
 		},
 		{
-			"x": 746,
+			"x": 756,
 			"y": 182,
 			"rotation": 0,
 			"isLocked": false,
@@ -533,8 +533,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 7,
-			"y": 11.8046875,
+			"x": -1.9843572885966978,
+			"y": 9.74506383189754,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -544,11 +544,11 @@
 			"props": {
 				"color": "black",
 				"size": "m",
-				"w": 84.390625,
+				"w": 130.84375,
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": true,
-				"scale": 1,
+				"scale": 1.1450918159147585,
 				"richText": {
 					"type": "doc",
 					"content": [
@@ -560,7 +560,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "Nexar "
+									"text": "Zen Stack "
 								}
 							]
 						}
@@ -612,7 +612,7 @@
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "move",
+				"type": "ew-resize",
 				"rotation": 0
 			},
 			"isFocusMode": false,
@@ -651,8 +651,8 @@
 			"typeName": "instance"
 		},
 		{
-			"x": 0,
-			"y": 0,
+			"x": -10,
+			"y": -3.7723872137837304,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -660,8 +660,8 @@
 			"id": "shape:GbWvaT-fihtGH2o4eW9dw",
 			"type": "geo",
 			"props": {
-				"w": 97,
-				"h": 52,
+				"w": 161.07390614373156,
+				"h": 59.54477442756744,
 				"geo": "rectangle",
 				"dash": "draw",
 				"growY": 0,
