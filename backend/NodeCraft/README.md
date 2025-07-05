@@ -26,6 +26,8 @@ Step 4: Install TypeScript
 ```
 npm i --save-dev typescript
 npm install --save-dev @types/express @types/node
+npm install --save-dev ts-node-dev
+
 npx tsc --init
 
 { 
@@ -34,6 +36,10 @@ npx tsc --init
    "outDir": "build" ,    
    "rootDir": "src" ,  
 }
+}
+Update package.json scripts:
+"scripts": {
+  "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
 }
 mkdir src
 mkdir build
@@ -61,3 +67,14 @@ npx tsc
 Step 7: Run the Project
 
 node build/app.js
+
+
+## Mongodb integration 
+📦 1. Install MongoDB Driver
+npm install mongodb
+npm install --save-dev @types/mongodb
+
+Step 1: Install deps
+npm install express mongoose dotenv
+npm install --save-dev @types/express @types/node ts-node-dev
+
