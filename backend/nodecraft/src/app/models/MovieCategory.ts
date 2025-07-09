@@ -49,7 +49,7 @@ const movieCategorySchema = new Schema({
       validator: (arr: string | any[]) => arr.length > 0,
       message: 'At least one tone is required.'
     },
-    enum: ['Intense', 'High-Energy', 'Suspenseful', 'Dark', 'Lighthearted', 'Epic']
+    enum: ['Intense', 'High-Energy', "Thought-Provoking", "Futuristic",  "Adventurous",  "Funny", "Charming",  'Suspenseful', 'Dark', 'Lighthearted', 'Epic']
   }
 }, { timestamps: true });
 

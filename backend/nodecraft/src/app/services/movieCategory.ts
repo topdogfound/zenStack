@@ -22,3 +22,9 @@ export async function getMovieCategories() {
 export async function getMovieCategory(id : string) {
   return MovieCategory.findById(id)
 }
+
+
+export async function doesCategoryExist(categoryId: string): Promise<boolean> {
+  const category = await MovieCategory.findById(categoryId);
+  return !!category;
+}
